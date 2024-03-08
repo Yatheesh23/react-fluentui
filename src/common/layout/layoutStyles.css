@@ -1,0 +1,48 @@
+.sideBar {
+    height: 100vh;
+    position: relative;
+}
+
+.outlet {
+    height: 100vh;
+    padding: 1em;
+    background: #e8ebfa;
+
+}
+
+.logoContainer {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.navContainer {
+    text-align: center;
+
+}
+
+.navContainer li {
+    margin: 2em 0;
+    background: #e8ebfa;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.active {
+    background: #9299f7 !important;
+    font-weight: bold;
+}
+
+.sidebar-conatiner {
+    border: 1px solid;
+}
+
+.user-info {
+    position: absolute;
+    bottom: 0;
+    margin: 2em 0;
+    text-align: center;
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

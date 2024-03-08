@@ -1,0 +1,35 @@
+.first-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+
+}
+
+.loginTxt {
+    color: #7f85f5
+}
+
+.login-container {
+    border: 1px solid;
+    padding: 1em;
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.spinnerContainer {
+    position: relative;
+}
+
+.spinnerContainer {
+    position: absolute;
+    z-index: 9999;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
